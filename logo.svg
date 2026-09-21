@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 118" role="img" aria-labelledby="title desc">
+  <title id="title">Designed Scale Advisory</title>
+  <desc id="desc">A drafting-inspired mark followed by the words Designed Scale Advisory.</desc>
+  <g transform="translate(4,7)">
+    <path d="M18 10V93H94" fill="none" stroke="#163f35" stroke-width="8" stroke-linecap="square"/>
+    <path d="M18 10 A75 75 0 0 1 94 84" fill="none" stroke="#d8c6a2" stroke-width="2.7"/>
+    <path d="M18 93 L80 31" fill="none" stroke="#163f35" stroke-width="2.8"/>
+    <circle cx="80" cy="31" r="5.5" fill="#c89222"/>
+    <path d="M94 84V93" fill="none" stroke="#d8c6a2" stroke-width="2.7"/>
+  </g>
+  <text x="128" y="55" fill="#163f35" font-family="Inter, Arial, Helvetica, sans-serif" font-size="35" font-weight="500" letter-spacing="4.2">DESIGNED SCALE</text>
+  <text x="130" y="89" fill="#b69763" font-family="Inter, Arial, Helvetica, sans-serif" font-size="16" font-weight="600" letter-spacing="8">ADVISORY</text>
+</svg>
