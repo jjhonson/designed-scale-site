@@ -17,7 +17,7 @@ The public pages are eligible for indexing. Page-level `noindex` tags, the crawl
 
 - `robots.txt` allows crawlers and points to `/sitemap.xml`.
 - `sitemap.xml` includes the six public pages, with their canonical HTTPS URLs.
-- Each page declares a canonical URL and social sharing URL.
+- Each page declares a canonical URL and social sharing URL. Netlify serves clean extensionless page addresses, which are used consistently in the canonical tags and sitemap.
 
 After deployment, verify the pages, `/robots.txt`, and `/sitemap.xml` on `https://designedscale.com/`. Then add `designedscale.com` as a Domain property in Google Search Console, verify ownership via Cloudflare DNS, submit the sitemap, and use URL Inspection to check the homepage and key service pages.
 

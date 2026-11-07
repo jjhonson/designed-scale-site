@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://designedscale.com/</loc></url>
-  <url><loc>https://designedscale.com/about.html</loc></url>
-  <url><loc>https://designedscale.com/what-i-do.html</loc></url>
-  <url><loc>https://designedscale.com/ways-to-work.html</loc></url>
-  <url><loc>https://designedscale.com/selected-work.html</loc></url>
-  <url><loc>https://designedscale.com/contact.html</loc></url>
+  <url><loc>https://designedscale.com/about</loc></url>
+  <url><loc>https://designedscale.com/what-i-do</loc></url>
+  <url><loc>https://designedscale.com/ways-to-work</loc></url>
+  <url><loc>https://designedscale.com/selected-work</loc></url>
+  <url><loc>https://designedscale.com/contact</loc></url>
 </urlset>
