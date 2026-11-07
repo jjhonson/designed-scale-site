@@ -18,3 +18,9 @@ V5 SEARCH-VISIBILITY PASS:
 - About/contact metadata no longer include a full name.
 - Added meta robots noindex, nofollow, noarchive to every public page.
 - The site should not be linked from Jason's personal LinkedIn or other public profiles while this quiet-launch posture is desired.
+
+
+V6 SEARCH-READY LAUNCH:
+- Reversed the deliberate V5 indexing blocks on all public pages and at the Netlify/robots layers.
+- Added a six-page XML sitemap, canonical URLs, and homepage search-title refinement.
+- Added a natural link from About Jason to jasonjhonson.com.
