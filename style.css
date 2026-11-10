@@ -81,6 +81,7 @@ header{
 .hero h1 .accent{color:var(--green)}
 .hero-copy{padding-bottom:10px}
 .hero-copy .kicker{margin-top:32px;max-width:690px;font-size:1.25rem;color:#4D534D}
+.hero-proof{max-width:660px;margin:18px 0 0;font-size:.92rem;line-height:1.55;color:var(--muted)}
 .hero-actions{display:flex;gap:14px;margin-top:36px;flex-wrap:wrap}
 .btn{display:inline-flex;align-items:center;gap:10px;padding:13px 18px;border:1px solid var(--ink);font-weight:700;font-size:.9rem}
 .btn.primary{background:var(--green);border-color:var(--green);color:#fff}
