@@ -281,7 +281,8 @@ footer{padding:34px 0 42px}
 .experience-logo-frame{min-height:62px;display:flex;align-items:center;justify-content:flex-start}
 .experience-logo{
   display:block;width:auto;height:auto;max-height:52px;max-width:100%;
-  object-fit:contain;object-position:left center
+  object-fit:contain;object-position:left center;
+  transform:scale(.75);transform-origin:left center
 }
 .experience-sector{font-size:.8rem;line-height:1.4;color:var(--muted)}
 .experience-footer{display:flex;gap:28px;justify-content:space-between;align-items:center;margin-top:25px}
