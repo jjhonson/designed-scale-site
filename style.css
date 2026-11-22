@@ -278,15 +278,11 @@ footer{padding:34px 0 42px}
   border-bottom:1px solid var(--line);border-right:1px solid var(--line);
   display:flex;flex-direction:column;justify-content:space-between;gap:24px;min-width:0
 }
-.experience-mark{font-size:clamp(1.2rem,2vw,1.65rem);font-weight:850;line-height:1.1;letter-spacing:-.04em;color:var(--ink);white-space:nowrap}
-.mark--github{font-weight:850;letter-spacing:-.06em}
-.mark--paypal{font-weight:800;font-style:italic;letter-spacing:-.05em;color:#254d7a}
-.mark--genesis{font-weight:650;letter-spacing:-.05em}
-.mark--genesis .mark-sub{font-size:.48em;font-weight:750;margin-left:5px;letter-spacing:.045em;vertical-align:middle}
-.mark--improbable{font-weight:750;letter-spacing:-.04em}
-.mark--epistemix{font-size:1.25rem;letter-spacing:.075em;font-weight:750}
-.mark--yahoo{font-weight:900;letter-spacing:-.08em;font-size:1.85rem;color:#59328c}
-.mark--coach{font-family:Georgia,serif;letter-spacing:.16em;font-weight:650;font-size:1.42rem}
+.experience-logo-frame{min-height:62px;display:flex;align-items:center;justify-content:flex-start}
+.experience-logo{
+  display:block;width:auto;height:auto;max-height:52px;max-width:100%;
+  object-fit:contain;object-position:left center
+}
 .experience-sector{font-size:.8rem;line-height:1.4;color:var(--muted)}
 .experience-footer{display:flex;gap:28px;justify-content:space-between;align-items:center;margin-top:25px}
 .experience-footer p{color:var(--muted);font-size:.83rem;margin:0}
@@ -315,17 +311,9 @@ footer{padding:34px 0 42px}
   .engagements--two .engagement{min-height:0;padding:30px 25px}
   .engagements--two .engagement--primary{padding-top:27px}
   .experience-tile{padding:24px 18px;min-height:124px}
-  .experience-mark{font-size:1.3rem}
-  .mark--yahoo{font-size:1.5rem}
-  .mark--coach{font-size:1.1rem}
-  .mark--epistemix{font-size:1rem}
   .experience-footer{align-items:flex-start;flex-direction:column;gap:15px}
 }
 
 @media (max-width:420px){
   .experience-tile{padding:22px 12px}
-  .experience-mark{font-size:1.1rem}
-  .mark--yahoo{font-size:1.45rem}
-  .mark--coach{font-size:1rem}
-  .mark--epistemix{font-size:.9rem;letter-spacing:.04em}
 }
