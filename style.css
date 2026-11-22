@@ -244,3 +244,80 @@ footer{padding:34px 0 42px}
   .ways-engagements .format{gap:24px;padding:46px 0 52px}
   .ways-engagements .format h3{margin-bottom:12px}
 }
+
+
+/* Homepage: concise problem recognition, distinct engagement models, prior-role markets. */
+.problem-grid--six{grid-template-columns:repeat(3,minmax(0,1fr))}
+.problem-grid--six .problem{
+  grid-template-columns:28px minmax(0,1fr);
+  gap:15px;
+  border-right:1px solid var(--line);
+  padding:30px 25px;
+  min-width:0;
+}
+.problem-grid--six .problem:nth-child(3n){border-right:0;padding-right:0}
+.problem-grid--six .problem:nth-child(3n+1){padding-left:0}
+.problem-grid--six .problem h3{font-size:clamp(1.35rem,1.8vw,1.75rem);line-height:1.17}
+.problem-grid--six .problem p{margin:13px 0 0;font-size:.94rem;line-height:1.55;max-width:33ch}
+.engagements--two{grid-template-columns:1.1fr .9fr;gap:20px}
+.engagements--two .engagement{min-height:260px;padding:36px 38px}
+.engagements--two .engagement--primary{border-top:4px solid var(--green);padding-top:33px}
+.engagements--two .engagement-number{
+  color:var(--green);font-size:.72rem;text-transform:uppercase;letter-spacing:.1em;font-weight:800;margin-bottom:20px
+}
+.engagements--two .engagement h3{font-size:clamp(1.7rem,2.2vw,2.1rem)}
+.engagements--two .engagement p{font-size:1.03rem;line-height:1.55;max-width:57ch;margin-top:17px}
+.engagements--two .engagement .tag{padding-top:30px}
+.section-action{margin-top:28px}
+.experience-grid{
+  display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:0;
+  border-top:1px solid var(--line);border-left:1px solid var(--line)
+}
+.experience-tile{
+  padding:28px 24px 26px;min-height:141px;
+  border-bottom:1px solid var(--line);border-right:1px solid var(--line);
+  display:flex;flex-direction:column;justify-content:space-between;gap:24px;min-width:0
+}
+.experience-mark{font-size:clamp(1.2rem,2vw,1.65rem);font-weight:850;line-height:1.1;letter-spacing:-.04em;color:var(--ink);white-space:nowrap}
+.mark--github{font-weight:850;letter-spacing:-.06em}
+.mark--paypal{font-weight:800;font-style:italic;letter-spacing:-.05em;color:#254d7a}
+.mark--genesis{font-weight:650;letter-spacing:-.05em}
+.mark--genesis .mark-sub{font-size:.48em;font-weight:750;margin-left:5px;letter-spacing:.045em;vertical-align:middle}
+.mark--improbable{font-weight:750;letter-spacing:-.04em}
+.mark--epistemix{font-size:1.25rem;letter-spacing:.075em;font-weight:750}
+.mark--yahoo{font-weight:900;letter-spacing:-.08em;font-size:1.85rem;color:#59328c}
+.mark--coach{font-family:Georgia,serif;letter-spacing:.16em;font-weight:650;font-size:1.42rem}
+.experience-sector{font-size:.8rem;line-height:1.4;color:var(--muted)}
+.experience-footer{display:flex;gap:28px;justify-content:space-between;align-items:center;margin-top:25px}
+.experience-footer p{color:var(--muted);font-size:.83rem;margin:0}
+.experience-footer a{color:var(--green);font-weight:750;font-size:.9rem;white-space:nowrap}
+.experience-footer a:hover{text-decoration:underline;text-underline-offset:4px}
+@media (max-width:980px){
+  .problem-grid--six{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .problem-grid--six .problem{padding:25px 22px}
+  .problem-grid--six .problem:nth-child(3n){border-right:1px solid var(--line);padding-right:22px}
+  .problem-grid--six .problem:nth-child(3n+1){padding-left:22px}
+  .problem-grid--six .problem:nth-child(2n){border-right:0}
+  .problem-grid--six .problem:nth-child(2n+1){padding-left:0}
+  .experience-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media (max-width:680px){
+  .problem-grid--six{grid-template-columns:1fr}
+  .problem-grid--six .problem,
+  .problem-grid--six .problem:nth-child(2n),
+  .problem-grid--six .problem:nth-child(3n),
+  .problem-grid--six .problem:nth-child(3n+1){
+    grid-template-columns:26px minmax(0,1fr);gap:14px;
+    padding:26px 0;border-right:0
+  }
+  .problem-grid--six .problem h3{font-size:1.55rem}
+  .engagements--two{grid-template-columns:1fr}
+  .engagements--two .engagement{min-height:0;padding:30px 25px}
+  .engagements--two .engagement--primary{padding-top:27px}
+  .experience-tile{padding:24px 18px;min-height:124px}
+  .experience-mark{font-size:1.3rem}
+  .mark--yahoo{font-size:1.5rem}
+  .mark--coach{font-size:1.1rem}
+  .mark--epistemix{font-size:1rem}
+  .experience-footer{align-items:flex-start;flex-direction:column;gap:15px}
+}
