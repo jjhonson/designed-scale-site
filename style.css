@@ -321,3 +321,11 @@ footer{padding:34px 0 42px}
   .mark--epistemix{font-size:1rem}
   .experience-footer{align-items:flex-start;flex-direction:column;gap:15px}
 }
+
+@media (max-width:420px){
+  .experience-tile{padding:22px 12px}
+  .experience-mark{font-size:1.1rem}
+  .mark--yahoo{font-size:1.45rem}
+  .mark--coach{font-size:1rem}
+  .mark--epistemix{font-size:.9rem;letter-spacing:.04em}
+}
