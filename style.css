@@ -156,6 +156,24 @@ footer{padding:34px 0 42px}
 .format .when{font-size:.9rem;color:var(--muted)}
 .format ul{margin:0;padding-left:18px;color:var(--muted)}
 .format li{margin:0 0 9px}
+
+/* Ways to Work Together: give the two detailed engagement models room to breathe. */
+.ways-engagements .format{
+  gap:clamp(40px, 4vw, 62px);
+  padding:60px 0 68px;
+}
+.ways-engagements .format h3{line-height:1.16;margin-bottom:18px}
+.ways-engagements .format > div > strong{display:block;line-height:1.45;margin-bottom:16px}
+.ways-engagements .format .when{
+  font-size:.96rem;
+  line-height:1.7;
+  margin-bottom:20px;
+}
+.ways-engagements .format .when:last-child{margin-bottom:0}
+.ways-engagements .format ul{padding-left:21px;line-height:1.7}
+.ways-engagements .format li{margin-bottom:15px;padding-left:3px}
+.ways-engagements .format li:last-child{margin-bottom:0}
+
 .principles{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:42px}
 .principle{border-top:2px solid var(--green);padding:18px 10px 0 0}
 .principle strong{display:block;margin-bottom:8px}
@@ -217,4 +235,12 @@ footer{padding:34px 0 42px}
   .brand-mark:before{width:20px;height:20px}
   .brand-mark:after{width:18px;height:18px}
   .brand-mark i{left:13px;top:13px;width:9px;height:9px}
+}
+
+@media (max-width:980px){
+  .ways-engagements .format{gap:30px}
+}
+@media (max-width:680px){
+  .ways-engagements .format{gap:24px;padding:46px 0 52px}
+  .ways-engagements .format h3{margin-bottom:12px}
 }
